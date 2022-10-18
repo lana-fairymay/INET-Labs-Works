@@ -48,5 +48,5 @@
 ## ✅ Экзаменационные билет №2
 
 Ответ на экзаменационный билет доступен по ссылке:
-[билет №2](https://github.com/stankin/inet-2022/wiki/exam2)
+[билет №2](https://github.com/stankin/inet-2022/wiki/exam02)
 
