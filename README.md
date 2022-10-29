@@ -49,7 +49,7 @@
 
 Работа с Сisco Packet Tracer.
 Материалы о выполнении лабораторной работы:
-* Сценарий: [Progect_Cisco](https://github.com/lana-fairymay/INET-Labs-Works/blob/main/%D0%A1%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9.pka?raw=true)
+* Сценарий: [Progect_Cisco](https://github.com/lana-fairymay/INET-Labs-Works/blob/main/%D0%A1%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9%20CPT.pka?raw=true)
 * Конфигурация устройства: [Configuration_Cisco](https://github.com/lana-fairymay/INET-Labs-Works/blob/main/%D0%9E%D1%82%D1%87%D0%B5%D1%82.pdf)
 
 ## ✅ Экзаменационные билет №2
