@@ -10,7 +10,7 @@
 5. Размещение странички на хостинге.
 
 * Ссылка на личный репозиторий: [Lana-fairymay](https://github.com/lana-fairymay/INET-Labs-Works)
-* Ссылка на личный лендинг: [Lending] (https://lana-fairymay.github.io/INET-Labs-Works/)
+* Ссылка на личный лендинг: [Lending](https://lana-fairymay.github.io/INET-Labs-Works/)
 
 ## ✅ Лабораторная работа № 2
 Разработка Web-приложения
