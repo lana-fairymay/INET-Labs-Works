@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Gerasimenko S.A.</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <header>
+        <div class="heading">
+            <h1>Gerasimenko Svetlana Andreevna</h1>
+            <h1>Лабораторные работы по дисциплине "Интернет-технологии"</h1>
+            <p>ИДМ-22-01</p>
+            <a href="#lab" class="goto">Посмотреть работы</a>
+         </div>
+    </header>
+    <main>
+
+
+            <section class="lab-item" id="lab">
+            <div>
+                <h2>Лабораторная работа №1</h2>
+                <h3>Экосистема разработки программ с открытым кодом (github):</h3>
+                <p class="lab-description"> Создание персональной страницы-отчета на GitHub и работа с git.</p>
+                <a href="#id1" class="lab-heading" onClick="toggleVisability(event, this.getAttribute('href'));">Открыть задачи <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                    <ol id="id1">
+                <li>Регистрация на GitHub.</li>
+                <li>Создание репозитория.</li>
+                <li>Добавление описания лабораторных работ.</li>
+                <li>Размещение кода исходной страницы в репозитории.</li>
+                <li>Создать персональную веб страницу-отчет. </li>
+                <li>Загрузить персональную веб страницу-отчет на хостинге</li>
+                    </ol>
+                </div>
+            </section>
+
+            <section class="lab-item">
+                <div>
+                <h2>Лабораторная работа №2</h2>
+                <h3>Разработка Web-приложения</h3>
+                    <p class="lab-description"> В рамках 2 лабораторной работы планируется разработать веб-приложение
+             </p>
+             <a href="#id2-1" class="lab-heading" onClick="toggleVisability(event, this.getAttribute('href'));">Открыть функциональность приложения<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+             <ol id="id2-1">
+                 <li>Работа с электронной подписью (ЭП):</li>
+                 <ol id="id2-1">
+                    <li>создание ЭП;</li>
+                    <li>простановка подписи ЭП на файл;</li>
+                    <li>проверка подписи ЭП по ее открытому ключу;</li>
+                    <li>удаление подписи ЭП.</li>
+                </ol>
+                 <li>Шифрование/р асшифровка файлов.</li>
+                 <li>Онлайн-чат между зарегистрированными пользователями (обмен сообщениями, файлами, картинками).</li>
+             </ol>
+             <a href="#id2-2" class="lab-heading" onClick="toggleVisability(event, this.getAttribute('href'));">Ссылки на веб-ресурсы <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+            <ol id="id2-2">
+                <li>Собрать команду для разработки веб-приложения и распределить роли. <a href="https://kxenki.github.io/IT_Project/" target="_blank">Landing Page</a></li>
+                <li>Сделать разметку страницы по макету<a href="https://github.com/kxenki/IT_Project" target="_blank"> Описание проекта</a></li>
+            </ol>
+            </div>
+            </section>
+
+            <section class="lab-item">
+                <div>
+                <h2>Лабораторная работа №3</h2>
+                <h3>Статическая маршрутизация</h3>
+            <p class="lab-description">Настройка коммутаторов и маршрутизаторов</p>
+
+            <a href="#id4-1" class="lab-heading" onClick="toggleVisability(event, this.getAttribute('href'));">Открыть отчет<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+         <ol id="id4-1">
+            <h4>Цель данной работы – изучения технологий и протоколов статической маршрутизации и суммирования маршрутов и представляет собой сценарий для Cisco Packet Tracer</h4><br>
+            <br>
+            <img  src="map1.png" style="width: 50%; display: block; margin-left: auto; margin-right: auto;"/> 
+          <br>    
+          <center><i>Схема</i></center>
+            
+            <h4>Расчет диапазонов подсетей.</h4>
+          <table border="1">
+              <tr><th></th><th>LAN A</th><th>LAN B</th><th>LAN C</th><th>LAN D</th><th>LAN E</th></tr>
+              <tr><td>Количество хостов в сети</td><td>69</td><td>15</td><td>67</td><td>4</td><td>4</td></tr>
+              <tr><td>Префиксная маска</td><td>/16</td><td>/16</td><td>/16</td><td>/30</td><td>/30</td></tr>
+              <tr><td>Адрес подсети</td><td>106.144.0.0</td><td>106.145.0.0</td><td>106.146.0.0</td><td>192.168.6.0</td><td>192.168.6.4</td></tr>
+              <tr><td>Адрес первого хоста</td><td>106.144.0.1</td><td>106.145.0.1</td><td>106.146.0.1</td><td>192.168.6.1</td><td>192.168.6.5</td></tr>
+              <tr><td>Адрес последнего хоста</td><td>106.144.0.126</td><td>106.145.0.14</td><td>106.146.3.254</td><td>192.168.6.2</td><td>192.168.6.6</td></tr>
+              <tr><td>Broadcast</td><td>106.144.0.127</td><td>106.145.0.15</td><td>106.146.3.255</td><td>192.168.6.2</td><td>192.168.6.6</td></tr>
+            </table><br>
+            <h4>Расчет адресов устройств.</h4>
+          <table border="1">
+              <tr><th>Устройство</th><th>IP</th><th>Маска</th><th>Шлюз по умолчанию</th></tr>
+                <tr><td>PC0</td><td>106.144.0.126</td><td>255.255.255.128</td><td>106.144.0.1</td></tr>
+                <tr><td>PC1</td><td>106.145.0.14</td><td>255.255.255.240</td><td>106.145.0.1</td></tr>
+                <tr><td>PC2</td><td>106.146.3.254</td><td>255.255.255.0</td><td>106.146.0.1</td></tr>
+        </table><br>
+              <h4>1. Настроить статические маршруты по умолчанию на маршрутизаторах Router A, Router B.</h4>
+
+               
+               <br>
+                <h4>2. На маршрутизаторе ISP настроить статический суммарный маршрут до сетей LAN A, LAN B, LAN C.</h4>   
+                        <br>
+                            <br>
+                         <h4>3. На маршрутизаторе ISP настроить статический суммарный маршрут до сетей LAN D, LAN E.</h4><br>
+                        
+            </div>
+            </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+
+
+</html>
