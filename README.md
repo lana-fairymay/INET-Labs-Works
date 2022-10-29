@@ -41,9 +41,9 @@
 2. Веб-страница с описанием проекта доступна по ссылке: [Landing page](https://github.com/aggink/LaboratoryWorks_IT)
 
 ## ✅ Лабораторная работа № 3
-Настройка локальной сети передачи данных
-Работа с Сisco Packet Tracer.
-Сценарий: [Progect_Cisco](https://github.com/lana-fairymay/INET-Labs-Works/blob/main/%D0%A1%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9.pka?raw=true)
+* Настройка локальной сети передачи данных
+* Работа с Сisco Packet Tracer.
+* Сценарий: [Progect_Cisco](https://github.com/lana-fairymay/INET-Labs-Works/blob/main/%D0%A1%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9.pka?raw=true)
 
 
 ## ✅ Экзаменационные билет №2
