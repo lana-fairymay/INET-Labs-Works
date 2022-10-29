@@ -42,6 +42,7 @@
 
 ## ✅ Лабораторная работа № 3
 Настройка локальной сети передачи данных.
+
 Работа с Сisco Packet Tracer.
 Материалы о выполнении лабораторной работы:
 * Сценарий: [Progect_Cisco](https://github.com/lana-fairymay/INET-Labs-Works/blob/main/%D0%A1%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9.pka?raw=true)
